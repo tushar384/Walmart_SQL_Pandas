@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
+![Project Pipeline]()
 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
@@ -16,12 +16,8 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
 
-### 2. Install Required Libraries and Load Data
-   - **Libraries**: Install necessary Python libraries using:
-     ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
-     ```
-   - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
+### 2. Install Required Libraries and Load Data Using Google Colab
+  - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
 ### 3. Explore the Data
    - **Goal**: Conduct an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
