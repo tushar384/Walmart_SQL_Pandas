@@ -37,6 +37,25 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 6. Load Data into MySQL and PostgreSQL
    - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
    - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+    ''' sql
+     DROP TABLE IF EXISTS table_name;
+
+
+CREATE TABLE walmart_sales (
+    invoice_id INT PRIMARY KEY,
+    branch VARCHAR(50),
+    city VARCHAR(50),
+    category VARCHAR(50),
+    unit_price NUMERIC(10, 2),
+    quantity INT,
+    date DATE,
+    time TIME,
+    payment_method VARCHAR(50),
+    rating NUMERIC(3, 1),
+    profit_margin NUMERIC(3, 2),
+    total NUMERIC(10, 2)
+);
+    '''
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 7. SQL Analysis: Complex Queries and Business Problem Solving
