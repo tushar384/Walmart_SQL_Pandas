@@ -54,9 +54,25 @@ The following visualizations were created using **Plotly**:
 
 ---
 
-## Usage 🖥️
+## Tools and Libraries 🛠️
+- **Python**
+- **Pandas**
+- **Plotly**
+- **Jupyter Notebook**
 
-Clone the repository and explore the analysis:
+---
 
-```bash
-git clone https://github.com/your-username/sales-analysis-project.git
+## Conclusion 📝
+This analysis provides actionable insights into branch performance, category trends, customer preferences, and profitability. These insights can guide strategic decisions to enhance business growth, optimize operations, and drive customer satisfaction.
+
+---
+
+## Contributors 👥
+- **Swapnil Chavan** - Data Analysis and Visualization
+
+Feel free to contribute by submitting issues or pull requests. Let's grow this project together!
+
+---
+
+## License 📄
+This project is licensed under the MIT License. See the `LICENSE` file for details.
